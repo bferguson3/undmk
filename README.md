@@ -3,21 +3,26 @@ MSX DMK to DSK converter script
 
 # UNDMK v1.0
 
+## Binary download for Win/Linux<br>
+[Download link](http://barelyconsciousgames.com/undmk_10.zip)
 
-## Usage:
+## Usage
 
 Command line:<br>
-`undmk <DMKFILENAME>.DMK`
+Executable:*<br>
+`undmk <DMKFILENAME>.DMK`<br>
+Python:<br>
+`$ python3 ./undmk.py <DMKFILENAME>.DMK`<br>
 
-Windows also supports dragging-and-dropping DMK files.
-
-
-## Output:
-
-`<DMKFILENAME>.DSK`
+*Windows also supports dragging-and-dropping DMK files onto the .exe.
 
 
-## Notes:
+## Output
+
+Creates `<DMKFILENAME>.DSK` in the folder it was ran from.
+
+
+## Notes
 
 Will work for any 512-byte sector length, 720kb capacity disk with "A1 A1 A1 FB" track data headers.<br>
 -Line 36 can be changed to `if inbytes[i+3] == 248:` to support A1...F8 track data header.<br>
