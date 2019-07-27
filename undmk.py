@@ -2,11 +2,11 @@
 
 # usage: $ python3 ./undmk.py <DMKFILENAME>
 
-# v2: added ability to split and stich files.
+# v2: added ability to split and stitch files.
 # SPLIT:
 #  $ python3 ./undmk.py <DMKFILENAME> -split
 # STITCH:
-#  $ python3 ./undmk.py <SPLITFOLDERNAME>
+#  $ python3 ./undmk.py <SPLITFOLDERNAME> -stitch
 
 # (c)2019 ben ferguson
 
