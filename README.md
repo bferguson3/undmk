@@ -19,8 +19,10 @@ Python:<br>
 
 *Windows also supports dragging-and-dropping DMK files onto the .exe.*
 <br>
+
 Split .DMK into 160xBIN files (two sides, 80 tracks):<br>
 `undmk <DMKFILENAME>.DMK -split`<br>
+
 Join split .BIN files in a folder back to DSK:<br>
 `undmk <DMKFOLDERNAME> -stitch`<br>
 
@@ -28,8 +30,10 @@ Join split .BIN files in a folder back to DSK:<br>
 ## Output
 Normal:<br>
 Creates `<DMKFILENAME>.DSK` in the folder it was ran from.<br>
+
 Split:<br>
 Creates 160xBIN files in a folder named as the .DMK file given as input.<br>
+
 Stitch:<br>
 Creates a .DSK file in the folder it was ran from with files taken from the folder name given as input.<br>
 
